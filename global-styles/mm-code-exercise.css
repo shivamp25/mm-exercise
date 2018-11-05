@@ -1,0 +1,119 @@
+html {
+  font-size: 62.5%;
+  position: relative;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  background-color: #f3f3f3;
+}
+
+header {
+  height: 6rem;
+  background-color: #002f6c;
+  box-sizing: border-box;
+  padding: 2.5rem 0;
+}
+header .container {
+  margin-top: -0.6rem;
+}
+header img {
+  width: 16rem;
+}
+
+.container {
+  margin-top: 5rem;
+}
+
+h1, h2, .mm-content-section .mm-card .content .title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #000;
+}
+
+p, h1, h2, .mm-content-section .mm-card .content .title {
+  margin: 0 0 2rem 0;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2, .mm-content-section .mm-card .content .title {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  margin: 0 0 1.6rem;
+  display: block;
+}
+
+a {
+  color: #005A9F;
+}
+a:hover {
+  color: #002f6c;
+}
+
+.mm-content-section .mm-card .content .category {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  line-height: 1.2rem;
+  margin-bottom: 2.4rem;
+}
+
+.mm-content-section .mm-card footer .sub-text {
+  font-size: 1.2rem;
+}
+
+.mm-content-section .mm-card footer .button {
+  color: #000;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1.2rem 4rem;
+  background-color: yellow;
+  border: 0;
+  border-radius: 0;
+}
+
+.row, .col-sm-4 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mm-content-section {
+  margin-top: 4rem;
+}
+.mm-content-section .mm-card {
+  background-color: #fff;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.mm-content-section .mm-card .image {
+  height: 24rem;
+  min-height: 15rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 52rem 27rem;
+}
+.mm-content-section .mm-card .content {
+  padding: 2.5rem;
+  flex-grow: 1;
+}
+.mm-content-section .mm-card footer {
+  padding: 2.5rem 3.2rem 3.5rem;
+}
+.mm-content-section .mm-card footer .sub-text {
+  margin: 0;
+}
+.mm-content-section .mm-card footer .button {
+  margin: 0;
+}
+
+/*# sourceMappingURL=mm-code-exercise.css.map */
